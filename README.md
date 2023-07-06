@@ -1,16 +1,12 @@
 # 玩转gitpod.io的workspaces
 
-sudo -i
-
-curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
-
-docker run -itd --network=host --name wstunnel_frps_x-ui --restart=always ybinson/wstunnel_frps_x-ui:amd64-latest
+#sh run.sh
 
 </br>
-开放端口: 54321
+开放端口: 8091
 
-x-ui控制台
+导入并修改下面配置的地址即可
 
-https://54321-q2533q-gitpod-4k1l5b7lcd5.ws-us101.gitpod.io
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImdpdHBvZC5pbyIsDQogICJhZGQiOiAiODA5MS1xMjUzM3EtZ2l0cG9kLTBmNHJ2bG13Z240LndzLXVzMTAxLmdpdHBvZC5pbyIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogImNocm9tZSINCn0=
 
-最后定时30秒自动刷新一次workspaces页面,保持在线. 免费50个小时用完后, 删除账号重来一次.
+最后浏览器插件定时30秒自动刷新一次workspaces页面,保持在线. 等免费50个小时用完后, 删除账号重来一次.
