@@ -1,6 +1,6 @@
 # 玩转gitpod.io的workspaces
 
-#sh run.sh
+#chmod +x xray && ./xray
 
 </br>
 开放端口: 8091
