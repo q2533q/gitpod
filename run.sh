@@ -1,2 +1,1 @@
-chmod +x xray
-./xray
+chmod +x xray && ./xray
